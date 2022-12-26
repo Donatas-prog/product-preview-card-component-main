@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    
+    
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-image {
+    border-top-left-radius: .6rem;
+    border-bottom-left-radius: .6rem;
+}  
+  
+
+.rigth-container {
+    width: 300px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0rem 1.7rem 0rem 1.5rem;
+    border-top-right-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+    
+}
+.preview {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 1.5rem;
+    opacity: .4;
+}
+.channel {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 1rem 3rem 1rem 0rem;
+}
+.para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 1rem;
+    opacity: .5;
+}
+.dollars {
+    color: hsl(158, 36%, 37%);
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.sale {
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    text-decoration: line-through;
+    align-items: center;
+    opacity: .5;
+}
+.button1 {
+    width: 100%;
+    height: 50px;
+    margin-top: 1rem;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: .6rem;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.button1:hover {
+    background-color:hsl(158, 40%, 27%);
+}
+.main-image {
+    display: block;
+    max-width: 300px;
+    min-height: 400px;
+}
+.icon {
+    margin-right: .3rem;
+}
+@media screen and (max-width: 375px) {
+    .main-container {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-image {
+        display: none;
+    }
+    .image-container .pav{
+        background-image: url("/images/image-product-mobile.jpg");
+        max-width: 375px;
+        min-height: 205px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0px 0px;
+        border-top-left-radius: .6rem;
+        border-top-right-radius: .6rem;
+        margin-top: 1.5em;
+        }
+    
+    .rigth-container {
+        max-width: 375px;
+        display: block;
+        height: auto;
+        padding: 1.5rem;
+        margin: 0 auto;
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: .6rem;
+    }
+    .channel {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .button1 {
+        width: 100%;
+        cursor: pointer;
+        }
+    .preview {
+        margin-top: .1em;
+    }
+}
