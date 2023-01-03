@@ -103,7 +103,7 @@ body {
         display: none;
     }
     .image-container .pav{
-        background-image: url("/images/image-product-mobile.jpg");
+        background-image: url("../images/image-product-mobile.jpg");
         max-width: 375px;
         min-height: 205px;
         background-repeat: no-repeat;
